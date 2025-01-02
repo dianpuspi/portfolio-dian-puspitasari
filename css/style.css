@@ -473,7 +473,7 @@ section{
 .projects .box-container .box p{
     font-size: 1.2rem;
     position: absolute;
-    margin-top: 25px;
+    margin-top: 20px;
     top: -6rem; left: 50%;
     transform: translateX(-50%);
     color: var(--light-black);
@@ -524,6 +524,7 @@ section{
 
 .contact .row .form .input{
     background-color: var(--light-bg);
+    width: 100%;
     border-radius: .5rem;
     text-transform: none;
     color: var(--black);
