@@ -34,9 +34,9 @@ function getGreeting() {
 
 document.getElementById("greeting").innerText = getGreeting();
 
-  // Clear form before unload
-  window.onbeforeunload = () => {
+// Clear form before unload
+window.onbeforeunload = () => {
     for (const form of document.getElementsByTagName("form")) {
       form.reset();
     }
-  };
+};
